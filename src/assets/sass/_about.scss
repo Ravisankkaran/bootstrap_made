@@ -65,6 +65,12 @@
             border-radius: 0%;
             height: 1 0px;
           }
-          
+          @media (max-width: 640px) {
+        
+            .row{
+              margin-left: 0%;
+            }
+        
+      }
     }
    

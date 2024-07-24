@@ -2,7 +2,7 @@
   <div id="about">
     <!-- about section-->
     <div class="about-session" data-aos="fade-up">
-      <h1 class="title mt-5">ABOUT</h1>
+      <h1 class="title ">ABOUT</h1>
       <p class="text-center p-5 mx-lg-5 px-lg-5 mb-0 pb-lg-0 mx-md-0 px-md-0">
         Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
       </p>
@@ -34,7 +34,7 @@
     </div>
     <!-- skill section -->
     <div class="skill-session" data-aos="fade-up">
-      <h1 class="title mt-5 pt-5">SKILLS</h1>
+      <h1 class="title  ">SKILLS</h1>
       <p class="text-center pt-5 mx-lg-5 px-lg-5 mb-0 pb-0 mx-md-0 px-md-0">
         Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
       </p>
@@ -54,7 +54,7 @@
     </div>
     <!-- facts section -->
     <div class="facts-session" data-aos="fade-up">
-      <h1 class="title mt-5">FACTS</h1>
+      <h1 class="title ">FACTS</h1>
       <p class="text-center p-5 mx-lg-5 px-lg-5 mb-0 pb-0 mx-md-0 px-md-0">
         Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
       </p>
@@ -67,7 +67,7 @@
     </div>
     <!-- testimonial section -->
     <div class="testimonial-session" data-aos="fade-up">
-      <h1 class="title mt-5">TESTIMONIALS</h1>
+      <h1 class="title ">TESTIMONIALS</h1>
       <p class="text-center p-5 mx-lg-5 px-lg-5 mb-0 pb-0 mx-md-0 px-md-0">
         Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
       </p>

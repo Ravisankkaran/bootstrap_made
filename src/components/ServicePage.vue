@@ -1,6 +1,6 @@
 <template>
   <div id="service" data-aos="fade-up" >
-    <h1 class="title mt-5">SERVICES</h1>
+    <h1 class="title ">SERVICES</h1>
     <p class="text-center p-5 mx-lg-5 px-lg-5 mb-0 pb-0 mx-md-0 px-md-0">
       Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
     </p>

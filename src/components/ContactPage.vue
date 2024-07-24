@@ -1,7 +1,7 @@
 <template>
     <div id="contact"  data-aos="fade-up" >
       <!-- contact page -->
-        <h1 class="title mt-5">CONTACT</h1>
+        <h1 class="title ">CONTACT</h1>
       <p class="text-center p-lg-5 p-3 mx-lg-5 px-lg-5 mb-0 pb-0 mx-md-0 px-md-0">
         Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
       </p>
