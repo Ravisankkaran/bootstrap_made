@@ -8,6 +8,13 @@
         transition: 0.4s;
         border-radius: 50px;
     }
+    .head{
+        // padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #222222;
+    }
     .location{
         border: none;
         border-radius: 50%;
@@ -29,5 +36,15 @@
     .fa-location-dot{
         // margin-left: 10px;
         // margin-top: 7px;
+    }
+    .location-para{
+        padding: 0 0 0 50px;
+        margin-bottom: 0;
+        font-size: 14px;
+        color: #555555;
+        margin-bottom: 20px;
+    }
+    .form-group{
+        margin-bottom: 0px;
     }
 }

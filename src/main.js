@@ -5,7 +5,8 @@ import '@/assets/sass/style.scss';
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
-
+import 'swiper/swiper-bundle.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
 import 'aos/dist/aos.css';

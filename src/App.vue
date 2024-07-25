@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
       <a class="navbar-brand" href="#">KELLY</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,22 +30,22 @@
         </ul>
         <ul class="navbar-nav social-links">
           <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
           </li>
         </ul>
       </div>
     </nav>
-    <router-view/>
-    <copyright/>
+    <router-view />
+    <copyright />
   </div>
 </template>
 

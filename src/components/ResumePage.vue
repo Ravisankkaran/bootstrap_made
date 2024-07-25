@@ -1,13 +1,14 @@
 <template>
     <div id="resume" data-aos="fade-up" >
       <!-- resume page -->
+       <div class="container">
         <h1 class="title ">RESUME</h1>
-      <p class="text-center px-5 pt-5 mx-lg-5 px-lg-5 mb-0 pb-0 mx-md-0 px-md-0">
+      <p class="text-center pt-5">
         Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
       </p>
-      <div class="content-container pt-0 d-lg-flex mx-4 justify-content-center px-lg-5">
+      <div class="content-container pt-0 d-lg-flex  justify-content-center ">
         <!-- page container -->
-        <div class="left-container  col-lg-6 px-lg-5 pt-3">
+        <div class="left-container  col-lg-6 ">
             <h3 class="resume-title">Summary</h3>
             
             <div class="resume-item pb-0">
@@ -40,7 +41,7 @@
               <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
             </div>
         </div>
-        <div class=" right-container mb-5 col-lg-6 px-lg-5 pt-3">
+        <div class=" right-container mb-5 col-lg-6  pt-3">
             <h3 class="resume-title">Professional Experience</h3>
             <div class="resume-item pb-0">
                 <div class="circle"></div>
@@ -72,6 +73,7 @@
         </div>
       </div>
     </div>
+  </div>
 </template>
 <script>
 export default {

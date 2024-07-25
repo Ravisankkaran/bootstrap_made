@@ -6,9 +6,11 @@
       padding: 50px;
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      gap: 10px; /* Optional: adds space between grid items */
+      gap: 20px; /* Optional: adds space between grid items */
     }
-    
+    .fa-solid{
+      font-size: 20px;
+    }
     .grid-item {
       position: relative; /* Ensure the pseudo-element is positioned relative to this */
       overflow: hidden; /* Ensure overflow doesn't show the pseudo-element */

@@ -1,32 +1,48 @@
 <template>
   <div id="testimonial">
-    <div class="testimonials-container" data-aos="fade-up">
-      <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
-        <div class="swiper-wrapper">
-          <div v-for="(testimonial, index) in testimonials" :key="index" class="swiper-slide">
-            <div class="testimonial-item d-flex flex-column text-center">
+    <div class="testimonials-container">
+      <!-- Bootstrap Carousel -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="500">
+        <!-- Carousel Indicators -->
+        <ol class="carousel-indicators ">
+          <li v-for="(testimonial, index) in testimonials" :key="index"
+              :data-target="'#carouselExampleIndicators'"
+              :data-slide-to="index"
+              :class="{ active: index === 0 }"></li>
+        </ol>
+
+        <!-- Carousel Inner -->
+        <div class="carousel-inner">
+          <div v-for="(testimonial, index) in testimonials" :key="index"
+               class="carousel-item" :class="{ active: index === 0 }">
+            <div class="testimonial-item">
               <img :src="testimonial.img" class="testimonial-img" :alt="'Testimonial ' + (index + 1)">
               <h3>{{ testimonial.name }}</h3>
               <h4>{{ testimonial.title }}</h4>
-              <p class="w-75">
-                <i class="fa-solid fa-quote-left"></i>
+              <p>
+                <i class="quote-icon-left fa-solid fa-quote-left"></i>
                 {{ testimonial.quote }}
-                <i class="fa-solid fa-quote-right"></i>
+                <i class="quote-icon-right fa-solid fa-quote-right"></i>
               </p>
             </div>
           </div>
         </div>
-        <!-- Pagination bullets -->
-        <div class="swiper-pagination"></div>
+
+        <!-- Carousel Controls -->
+        <!-- <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a> -->
       </div>
     </div>
   </div>
 </template>
-<script>
-import Swiper from 'swiper';
-import 'swiper/swiper-bundle.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
+<script>
 export default {
   data() {
     return {
@@ -64,21 +80,5 @@ export default {
       ],
     };
   },
-  mounted() {
-    new Swiper('.swiper-container', {
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-        renderBullet: function (index, className) {
-          return `<span class="swiper-pagination-bullet ${className}"></span>`;
-        },
-      },
-      autoplay: {
-        delay: 3000,
-      },
-      loop: true,
-    });
-  },
 };
 </script>
-

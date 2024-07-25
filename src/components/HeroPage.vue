@@ -5,7 +5,7 @@
         
       <h1>Kelly Adams</h1>
       <h2 class="text-muted">I'm a professional illustrator from San Francisco</h2>
-      <div class="btn-about"> <router-link class="btn-about"  to="/about">About Me</router-link></div>
+      <div class="btn-about"> <router-link class="btn-about"  to="/about">ABOUT ME</router-link></div>
     </div>
 </div>
 </template>

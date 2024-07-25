@@ -16,17 +16,16 @@
       font-style: italic !important;
     }
     .skill,.val{
-      padding: 10px 0;
-    margin: 0 0 6px 0;
+      // padding: 10px 0;
+    // margin: 0 0 6px 0;
     text-transform: uppercase;
     display: block;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
     color: #222222;
+    font-size: 12px;
     }
-    .row{
-      margin-left: 100px;
-    }
+
     .bio{
       padding-right: 0%;
     padding-left: 0%;
@@ -44,8 +43,8 @@
           }
           
           .progress-container{
-           
-            padding: 10px;
+            gap:10px 20px;
+            
           }
           .count{
             font-size: 48px;
@@ -63,13 +62,16 @@
           }
           .progress{
             border-radius: 0%;
-            height: 1 0px;
+            height: 10px;
+          }
+          .about-session{
+          
           }
           @media (max-width: 640px) {
         
-            .row{
-              margin-left: 0%;
-            }
+            // .row{
+            //   margin-left: 0%;
+            // }
         
       }
     }

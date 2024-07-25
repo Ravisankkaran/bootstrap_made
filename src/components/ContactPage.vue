@@ -5,27 +5,27 @@
       <p class="text-center p-lg-5 p-3 mx-lg-5 px-lg-5 mb-0 pb-0 mx-md-0 px-md-0">
         Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
       </p>
-      <div class="map p-lg-5 pt-lg-0 p-sm-3 pt-4 mx-5">
+      <div class="map  pt-lg-0 p-sm-3 pt-4 mx-5">
         <!-- embedded google map -->
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.5589577736605!2d80.12137207454609!3d12.936043915657914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525fe800379355%3A0x5ddae88dd623ef0e!2sMedyaan%20Healthcare%20Private%20Limited!5e0!3m2!1sen!2sin!4v1721364372195!5m2!1sen!2sin" width="100%" height="300" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
-      <div class="contact-container pt-2 d-lg-flex  p-lg-5 pt-lg-0 mx-5">
+      <div class="contact-container pt-5 py-lg-4 d-lg-flex   pt-lg-0 mx-5">
         <div class="col-lg-4 col-12">
             <div class="d-flex">
             <div class="location d-flex"><i class="fa-solid fa-location-dot"></i></div>
-            <h2 class="mx-1">Location:</h2>
+            <h4 class="mx-1 head">Location:</h4>
         </div>
-        <p class="mx-5">A108 Adam Street, New York, NY 535022</p>
+        <p class="location-para">A108 Adam Street, New York, NY 535022</p>
         <div class="d-flex">
             <div class="location"><i class="fa-regular fa-envelope"></i></div>
-            <h2 class="mx-1">Email:</h2>
+            <h4 class="mx-1 head">Email:</h4>
             </div>
-            <p class="mx-5">info@example.com</p>
+            <p class="location-para">info@example.com</p>
             <div class="d-flex">
             <div class="location"><i class="fa-solid fa-mobile-screen-button"></i></div>
-            <h2 class="mx-1">Call:</h2>
+            <h4 class="mx-1 head">Call:</h4>
             </div>
-            <p class="mx-5">+1 5589 55488 55s</p>
+            <p class="location-para">+1 5589 55488 55s</p>
             
         </div>
         <div class="col-lg-8 col-12">
